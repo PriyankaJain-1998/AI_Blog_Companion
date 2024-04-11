@@ -1,9 +1,9 @@
 import streamlit as st
 import google.generativeai as genai
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 # from apikey import google_gemini_api_key, openai_api_key
 
@@ -15,8 +15,12 @@ load_dotenv()
 #      interval=None,
 #      img="")
 # client = OpenAI(api_key=openai_api_key)
-google_gemini_api_key = os.environ.get('google_gemini_api_key')
-openai_api_key = os.environ.get('openai_api_key')
+
+google_gemini_api_key = st.secrets["google_gemini_api_key"]
+# openai_api_key = st.secrets('openai_api_key')
+
+# google_gemini_api_key = os.environ.get('google_gemini_api_key')
+# openai_api_key = os.environ.get('openai_api_key')
 
 genai.configure(api_key=google_gemini_api_key)
 
