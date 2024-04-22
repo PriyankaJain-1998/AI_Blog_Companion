@@ -1,5 +1,6 @@
 <h1>AI Blogging Assistant with Google Gemini and DALL-E-3 🌟 </h1>
-Welcome to the AI Blogging Assistant project! In this tutorial, we'll build an AI-powered Blogging Assistant using the latest Google Gemini AI model, Streamlit, and Python. Get ready to supercharge your blogging experience in just few minutes!
+
+Welcome to an [AI Blogging Assistant](https://aiblogcompanion-rgd6hyfz8xrjz45xwffbfa.streamlit.app/) project! In this tutorial, we'll build an AI-powered Blogging Assistant using the latest Google Gemini AI model, Streamlit, and Python. Get ready to supercharge your blogging experience in just few minutes!
 
 <h3>🚀 Project Overview</h3>
 
